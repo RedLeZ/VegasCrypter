@@ -1,6 +1,15 @@
 import base64
 from cryptography.fernet import Fernet
 
+print("╭╮╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╱╱╱╱╭╮")
+print("┃╰╮╭╯┃╱╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱╱╱╱╱╱╱╭╯╰╮")
+print("╰╮┃┃╭┻━┳━━┳━━┳━━╮┃┃╱╰╋━┳╮╱╭┳━┻╮╭╋━━┳━╮")
+print("╱┃╰╯┃┃━┫╭╮┃╭╮┃━━┫┃┃╱╭┫╭┫┃╱┃┃╭╮┃┃┃┃━┫╭╯")
+print("╱╰╮╭┫┃━┫╭╮┃╰╯┣━━┃┃╰━╯┃┃┃╰━╯┃╰╯┃╰┫┃━┫")
+print("╱/╰╯╰━━┻╯╰┻━╮┣━━╯╰━━━┻╯╰━╮╭┫╭━┻━┻━━┻╯")
+print("╱╱╱╱╱╱╱╱╱╱╭━╯┃╱╱╱╱╱╱╱╱╱╭━╯┃┃┃")
+print("╱╱╱╱╱╱╱╱╱╱╰━━╯╱╱╱╱╱╱╱╱╱╰━━╯╰╯")
+
 def generate_key(password):
     # Generate a key from the password using PBKDF2
     from cryptography.hazmat.backends import default_backend
